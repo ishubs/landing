@@ -1,0 +1,100 @@
+/* Banner.css */
+.banner {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    flex: 1;
+    padding: 20px;
+    height: fit-content;
+    flex: 0.5;
+    margin-left: 159px;
+    text-align: left;
+    margin-top: 240px
+}
+
+.banner-primary {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--colour-main-blue-900, #091133);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Medium 50 */
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px;
+    /* 132% */
+    letter-spacing: 1px;
+}
+
+.banner-secondary {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--colour-main-blue-500, #505F98);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Regular 18 */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.banner-cta {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    background: var(--colour-main-blue-800, #111B47);
+}
+
+.learn-more-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 2px solid var(--colour-main-blue-900, #091133);
+    color: var(--colour-main-blue-900, #091133);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    background-color: transparent;
+    /* Medium 16 */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 2px 10px;
+
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.banner-image {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
