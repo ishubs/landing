@@ -26,6 +26,16 @@
     color: #000;
     font-weight: bold;
     transition: color 0.3s;
+    color: var(--colour-main-blue-500, #505F98);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Regular 14 */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
 }
 
 .navbar a:hover {
@@ -58,6 +68,8 @@
     border-radius: 2px;
     background: var(--colour-main-blue-800, #111B47);
     margin-right: 70px;
+    width: 160px;
+    height: 26px;
 
 }
 

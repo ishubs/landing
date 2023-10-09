@@ -55,8 +55,9 @@
     align-items: center;
 }
 
-.cta-button {
+.cta-button-banner {
     color: #fff;
+    width: 189px;
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
@@ -81,7 +82,7 @@
     font-style: normal;
     font-weight: 500;
     padding: 2px 10px;
-
+    width: 189px;
     line-height: 26px;
     /* 162.5% */
 }
