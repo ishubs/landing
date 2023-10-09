@@ -56,7 +56,6 @@
 }
 
 .cta-button {
-    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -97,4 +96,16 @@
 .banner-image img {
     width: 100%;
     height: auto;
+}
+
+
+/* Mobile Media Query */
+@media only screen and (max-width: 480px) {
+    .banner {
+        margin: 0;
+    }
+
+    .banner-text {
+        margin: 0;
+    }
 }
